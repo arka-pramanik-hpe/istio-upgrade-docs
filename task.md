@@ -70,3 +70,14 @@ After upgrade:
 kubectl get deployment -n operators cray-kiali-kiali-operator -oyaml | grep image
 kubectl get deployment -n istio-system kiali -oyaml | grep image
   -- look for v1.41.0
+
+kubectl create -f - <<EOF
+ apiVersion: security.istio.io/v1beta1
+ kind: PeerAuthentication
+ metadata:
+   name: default-strict-mode
+   namespace: istio-system
+ spec:
+   mtls:
+     mode: STRICT
+ EOF

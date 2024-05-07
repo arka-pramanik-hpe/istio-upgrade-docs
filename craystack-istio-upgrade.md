@@ -537,4 +537,4 @@ https://istio.io/v1.12/docs/setup/install/helm/
 https://github.com/istio/istio/wiki/Troubleshooting-Istio#sidecar-injection
 https://istio.io/latest/blog/2019/data-plane-setup/
 https://medium.com/johnjjung/enabling-and-disabling-kubernetes-istio-sidecar-injections-426c5e7d4811
-https://rndwiki-pro.its.hpecorp.net/display/CASMPET/Installation+of+1.11.8 (Authored by Me)
+https://rndwiki-pro.its.hpecorp.net/display/CASMPET/Installation+of+1.12.0 (Authored by Me)
